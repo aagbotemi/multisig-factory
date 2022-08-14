@@ -13,6 +13,10 @@ const config: HardhatUserConfig = {
     goerli: {
       url: process.env.GOERLI_URL,
       accounts: [process.env.PRIVATE_KEY] as HttpNetworkAccountsUserConfig | undefined,
+    },
+    ropsten: {
+      url: process.env.ROPSTEN_URL,
+      accounts: [process.env.PRIVATE_KEY] as HttpNetworkAccountsUserConfig | undefined,
     }
   }
 };
