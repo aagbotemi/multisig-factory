@@ -184,6 +184,7 @@ contract MultiSig {
 ///A contract that allows 70% of validSigner to Approve before a withdrawal can be succesful
 
 address[] validSigner;
+
 uint256 ID = 1;
 uint256 public Quorum = 3;
 //maping of trnsaction Id to number of approval to status
